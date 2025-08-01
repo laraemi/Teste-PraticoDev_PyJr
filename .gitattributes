@@ -1,0 +1,98 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# JavaScript files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# CSS files
+*.css text
+*.scss text
+*.sass text
+
+# HTML files
+*.html text
+*.htm text
+
+# Markdown files
+*.md text diff=markdown
+
+# JSON files
+*.json text
+
+# YAML files
+*.yml text
+*.yaml text
+
+# Configuration files
+*.conf text
+*.config text
+*.ini text
+*.cfg text
+
+# Documentation
+*.txt text
+*.rst text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Docker files
+Dockerfile text
+docker-compose*.yml text
+
+# Git files
+.gitattributes text
+.gitignore text
+.gitmodules text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.rar binary
+*.7z binary
+
+# Executable files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Archive files
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+
+# Database files
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+
+# Log files
+*.log text
+
+# Lock files
+package-lock.json text
+yarn.lock text
+Pipfile.lock text
+poetry.lock text
+
+# Environment files
+.env* text
+
+# IDE files
+.vscode/settings.json text
+.idea/workspace.xml text 

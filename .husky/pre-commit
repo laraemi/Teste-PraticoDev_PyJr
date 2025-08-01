@@ -1,0 +1,16 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running pre-commit checks..."
+
+# Run backend tests
+cd backend
+python -m pytest tests/ -v --tb=short
+cd ..
+
+# Run frontend tests
+cd frontend
+npm test -- --run
+cd ..
+
+echo "Pre-commit checks completed!" 
