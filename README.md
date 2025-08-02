@@ -1,4 +1,4 @@
-# To-Do List Application
+# Teste-PraticoDev_PyJr
 
 Uma aplicação web completa de gerenciamento de tarefas desenvolvida com React (frontend) e Django REST Framework (backend).
 
@@ -207,13 +207,6 @@ todo-app/
 
 Crie um arquivo `.env` no diretório `backend/`:
 
-```env
-SECRET_KEY=sua_chave_secreta_aqui
-DEBUG=True
-ALLOWED_HOSTS=localhost,127.0.0.1
-CORS_ALLOWED_ORIGINS=http://localhost:5173
-```
-
 ## 📝 API Endpoints
 
 ### Autenticação
@@ -236,14 +229,3 @@ CORS_ALLOWED_ORIGINS=http://localhost:5173
 - `PUT /api/categories/{id}/` - Atualizar categoria
 - `DELETE /api/categories/{id}/` - Deletar categoria
 
-## 🤝 Contribuição
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes. 
